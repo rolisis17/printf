@@ -6,7 +6,7 @@
 /*   By: dcella-d <dcella-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 17:54:33 by dcella-d          #+#    #+#             */
-/*   Updated: 2022/11/18 18:41:33 by dcella-d         ###   ########.fr       */
+/*   Updated: 2022/11/22 12:11:09 by dcella-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_putaddress(unsigned long int nbr, char *base, int safe)
 {
-	int		res;
-	
+	int	res;
+
 	res = 0;
 	if (!nbr)
 		return (write(1, "(nil)", 5));

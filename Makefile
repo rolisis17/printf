@@ -5,7 +5,7 @@ CC = cc
 NAME = libftprintf.a
 OBJS = $(SRCS:.c=.o)
 RM = rm -f
-LIBC = ar rcs
+LIBC = ar rc
 INCS = ft_printf.h
 
 .c.o: $(INCS)

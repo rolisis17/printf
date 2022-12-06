@@ -6,7 +6,7 @@
 /*   By: dcella-d <dcella-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 17:54:33 by dcella-d          #+#    #+#             */
-/*   Updated: 2022/11/18 18:41:12 by dcella-d         ###   ########.fr       */
+/*   Updated: 2022/11/22 12:11:38 by dcella-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_putnbr(int nbr)
 {
 	long	nb;
 	int		res;
-	
+
 	nb = nbr;
 	res = 0;
 	if (nb < 0)

@@ -6,21 +6,11 @@
 /*   By: dcella-d <dcella-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 17:02:22 by dcella-d          #+#    #+#             */
-/*   Updated: 2022/11/18 18:41:49 by dcella-d         ###   ########.fr       */
+/*   Updated: 2022/11/22 12:49:13 by dcella-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
-/* • %c Prints a single character.
-• %s Prints a string (as defined by the common C convention).
-• %p The void * pointer argument has to be printed in hexadecimal format.
-• %d Prints a decimal (base 10) number.
-• %i Prints an integer in base 10.
-• %u Prints an unsigned decimal (base 10) number.
-• %x Prints a number in hexadecimal (base 16) lowercase format.
-• %X Prints a number in hexadecimal (base 16) uppercase format.
-• %% Prints a percent sign */
 
 int	ft_flags(char uck, va_list args)
 {
@@ -39,6 +29,17 @@ int	ft_flags(char uck, va_list args)
 	if (uck == 'X')
 		return (ft_puthexa(va_arg(args, unsigned int), "0123456789ABCDEF"));
 	if (uck == 'p')
-		return (ft_putaddress(va_arg(args, unsigned long int), "0123456789abcdef", 0));
+		return (ft_putaddress(va_arg(args, unsigned long int), \
+		"0123456789abcdef", 0));
 	return (0);
 }
+
+/* • %c Prints a single character.
+• %s Prints a string (as defined by the common C convention).
+• %p The void * pointer argument has to be printed in hexadecimal format.
+• %d Prints a decimal (base 10) number.
+• %i Prints an integer in base 10.
+• %u Prints an unsigned decimal (base 10) number.
+• %x Prints a number in hexadecimal (base 16) lowercase format.
+• %X Prints a number in hexadecimal (base 16) uppercase format.
+• %% Prints a percent sign */

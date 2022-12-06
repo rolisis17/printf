@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libftprintf.h                                      :+:      :+:    :+:   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dcella-d <dcella-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 16:32:58 by dcella-d          #+#    #+#             */
-/*   Updated: 2022/11/18 18:40:23 by dcella-d         ###   ########.fr       */
+/*   Updated: 2022/11/22 12:10:59 by dcella-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-#include <stdarg.h>
-#include <unistd.h>
-#include <stdio.h>
+# include <stdarg.h>
+# include <unistd.h>
+# include <stdio.h>
 
 int	ft_printf(const char *str, ...);
 

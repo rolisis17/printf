@@ -6,7 +6,7 @@
 /*   By: dcella-d <dcella-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 17:54:33 by dcella-d          #+#    #+#             */
-/*   Updated: 2022/11/18 18:42:47 by dcella-d         ###   ########.fr       */
+/*   Updated: 2022/11/22 12:11:30 by dcella-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_puthexa(unsigned int nbr, char *base)
 {
-	int		res;
-	
+	int	res;
+
 	res = 0;
 	if (nbr > 15)
 		res += ft_puthexa(nbr / 16, base);

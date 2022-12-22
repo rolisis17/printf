@@ -6,7 +6,7 @@
 /*   By: dcella-d <dcella-d@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 16:09:56 by dcella-d          #+#    #+#             */
-/*   Updated: 2022/12/06 15:03:06 by dcella-d         ###   ########.fr       */
+/*   Updated: 2022/12/22 19:57:54 by dcella-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,14 @@ int	ft_printf(const char *str, ...)
 
 /* int	main()
 {
-	void	*fuck;
-	fuck = "fuck";
+	void	*fu;
+	fuck = "fu";
 	int res = ft_printf("Poarr %c\n", 'a');
 	int res2 = ft_printf("Poarr %s\n", "Carai irmao");
 	int res3 = ft_printf("Poarr %d\n", 12342);
 	int res4 = ft_printf("Poarr %u\n", -12341);
-	int res5 = ft_printf("void pointer: %s\n", fuck);
-	int res6 = printf("void pointer: %s\n", fuck);
+	int res5 = ft_printf("void pointer: %s\n", fu);
+	int res6 = printf("void pointer: %s\n", fu);
 	printf("%d\n", res);
 	printf("%d\n", res2);
 	printf("%d\n", res3);
